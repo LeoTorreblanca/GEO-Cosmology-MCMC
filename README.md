@@ -18,29 +18,15 @@ and a local-$H_0$ likelihood.
 
 The extended GEO calculation yields approximately
 
-$$
-H_{0,\mathrm{primitive}}
-=
-67.72 \pm 0.49
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}},
-$$
+$$H_{0,\mathrm{primitive}}=67.72 \pm 0.49 \;\mathrm{km\,s^{-1}\,Mpc^{-1}},$$
 
 and, after application of the canonical GEO projection,
 
-$$
-H_{0,\mathrm{GEO}}
-=
-73.39 \pm 0.53
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}}.
-$$
+$$H_{0,\mathrm{GEO}}=73.39 \pm 0.53 \;\mathrm{km\,s^{-1}\,Mpc^{-1}}.$$
 
 The matched best-point comparison gives
 
-$$
-\Delta\chi^2_{\mathrm{joint}}
-\simeq
--19.94,
-$$
+$$\Delta\chi^2_{\mathrm{joint}} \simeq -19.94,$$
 
 for GEO minus the ΛCDM + local-$H_0$ control in the exact likelihood
 configuration documented in this repository.
@@ -54,101 +40,50 @@ the GEO realization in this specific matched comparison.
 
 The canonical GEO efficiency is
 
-$$
-\eta
-=
-\frac{3}{5}
-=
-0.6.
-$$
+$$\eta=\frac{3}{5}=0.6.$$
 
 The corresponding canonical coupling quantity is
 
-$$
-f_c
-=
-\sqrt{\eta}
-=
-0.774596669241483.
-$$
+$$f_c=\sqrt{\eta}=0.774596669241483.$$
 
 For the Hubble-channel realization used in this analysis,
 
-$$
-\mu_H
-=
-\eta
-=
-0.6.
-$$
+$$\mu_H=\eta=0.6.$$
 
 The GEO radial law is
 
-$$
-R
-=
-\mu_H^{1/3},
-$$
+$$R=\mu_H^{1/3},$$
 
 which gives
 
-$$
-R
-=
-0.843432665301749.
-$$
+$$R=0.843432665301749.$$
 
 The GEO operator used in this realization is
 
-$$
-\Phi
-=
-1.88961381521168.
-$$
+$$\Phi=1.88961381521168.$$
 
 The corresponding coefficient is
 
-$$
-\alpha
-=
-\frac{\Phi(1-\eta)}{\sqrt{2}}
-=
-0.534463497023985.
-$$
+$$\alpha=\frac{\Phi(1-\eta)}{\sqrt{2}}=0.534463497023985.$$
 
 The resulting GEO projection factor is
 
-$$
-P_{\mathrm{GEO}}
-=
-1+\alpha(1-R)
-=
-1.083679525222552.
-$$
+$$P_{\mathrm{GEO}}=1+\alpha(1-R)=1.083679525222552.$$
 
 The local GEO Hubble realization is therefore
 
-$$
-H_{0,\mathrm{GEO}}
-=
-P_{\mathrm{GEO}}\,
-H_{0,\mathrm{primitive}}.
-$$
+$$H_{0,\mathrm{GEO}}=P_{\mathrm{GEO}}\, H_{0,\mathrm{primitive}}.$$
 
 The general radial relation used throughout GEO is
 
-$$
-\boxed{R=\mu^{1/3}}.
-$$
+$$\boxed{R=\mu^{1/3}}.$$
 
 Here $\mu$ denotes the relevant GEO efficiency/effective state for the
 channel under consideration.
 
 In the Hubble-channel realization used in this repository,
 
-$$
-\mu_H=\eta=0.6.
-$$
+$$\mu_H=\eta=0.6.$$
 
 The historical notation $R=\eta^{1/3}$ is not used as a general
 operator identity. The canonical radial law is $R=\mu^{1/3}$, while
@@ -191,97 +126,47 @@ tested using profile likelihoods in which $f_c$ was allowed to vary.
 
 The wide profile gives
 
-$$
-f_{c,\mathrm{best}}
-=
-0.774088414673177,
-$$
+$$f_{c,\mathrm{best}}=0.774088414673177,$$
 
 and therefore
 
-$$
-\eta_{\mathrm{best}}
-=
-f_{c,\mathrm{best}}^2
-=
-0.599212873731233.
-$$
+$$\eta_{\mathrm{best}}=f_{c,\mathrm{best}}^2=0.599212873731233.$$
 
 The canonical GEO prediction is
 
-$$
-f_{c,\mathrm{GEO}}
-=
-\sqrt{\frac{3}{5}}
-=
-0.774596669241483,
-$$
+$$f_{c,\mathrm{GEO}}=\sqrt{\frac{3}{5}}=0.774596669241483,$$
 
 with
 
-$$
-\eta_{\mathrm{GEO}}
-=
-0.600000000000000.
-$$
+$$\eta_{\mathrm{GEO}}=0.600000000000000.$$
 
 At the canonical node,
 
-$$
-\Delta\chi^2_{\mathrm{GEO}}
-=
-0.001005928553.
-$$
+$$\Delta\chi^2_{\mathrm{GEO}}=0.001005928553.$$
 
 The difference between the profile minimum and the canonical value is
 
-$$
-f_{c,\mathrm{GEO}}
--
-f_{c,\mathrm{best}}
-=
-5.08254568306\times10^{-4},
-$$
+$$f_{c,\mathrm{GEO}} - f_{c,\mathrm{best}}=5.08254568306\times10^{-4},$$
 
 and
 
-$$
-\eta_{\mathrm{GEO}}
--
-\eta_{\mathrm{best}}
-=
-7.87126268767\times10^{-4}.
-$$
+$$\eta_{\mathrm{GEO}} - \eta_{\mathrm{best}}=7.87126268767\times10^{-4}.$$
 
 Thus, within this profile test, the canonical GEO node lies essentially
 at the likelihood minimum.
 
 Cross-configuration tests give a median preferred value
 
-$$
-\operatorname{median}(\eta_{\mathrm{best}})
-=
-0.6.
-$$
+$$\operatorname{median}(\eta_{\mathrm{best}})=0.6.$$
 
 Across the tested configurations, the mean chi-square penalty evaluated
 at the canonical node is approximately
 
-$$
-\left\langle
-\Delta\chi^2_{\mathrm{GEO}}
-\right\rangle
-=
-0.08935,
-$$
+$$\left\langle \Delta\chi^2_{\mathrm{GEO}} \right\rangle=0.08935,$$
 
 while the maximum is approximately
 
-$$
-\Delta\chi^2_{\mathrm{GEO,max}}
-=
-0.26765.
-$$
+$$\Delta\chi^2_{\mathrm{GEO,max}}=0.26765.$$
 
 These configurations are not all statistically independent. In
 particular, several weak-lensing-like tests reuse common
@@ -316,150 +201,68 @@ Hubble mapping.
 For the extended GEO-29 calculation, the posterior primitive Hubble
 parameter is
 
-$$
-H_{0,\mathrm{primitive}}
-=
-67.7213 \pm 0.4884
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}}.
-$$
+$$H_{0,\mathrm{primitive}}=67.7213 \pm 0.4884 \;\mathrm{km\,s^{-1}\,Mpc^{-1}}.$$
 
 After applying the canonical GEO projection factor,
 
-$$
-H_{0,\mathrm{GEO}}
-=
-P_{\mathrm{GEO}}
-H_{0,\mathrm{primitive}},
-$$
+$$H_{0,\mathrm{GEO}}=P_{\mathrm{GEO}} H_{0,\mathrm{primitive}},$$
 
 the corresponding posterior is
 
-$$
-H_{0,\mathrm{GEO}}
-=
-73.3882 \pm 0.5292
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}}.
-$$
+$$H_{0,\mathrm{GEO}}=73.3882 \pm 0.5292 \;\mathrm{km\,s^{-1}\,Mpc^{-1}}.$$
 
 The same extended chain gives approximately
 
-$$
-\Omega_m
-=
-0.309465,
-$$
+$$\Omega_m=0.309465,$$
 
 and
 
-$$
-\sigma_8
-=
-0.818567.
-$$
+$$\sigma_8=0.818567.$$
 
 The best sampled GEO-29 point gives
 
-$$
-H_{0,\mathrm{primitive}}
-=
-67.833577
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}},
-$$
+$$H_{0,\mathrm{primitive}}=67.833577 \;\mathrm{km\,s^{-1}\,Mpc^{-1}},$$
 
 and therefore
 
-$$
-H_{0,\mathrm{GEO}}
-=
-73.509859
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}}.
-$$
+$$H_{0,\mathrm{GEO}}=73.509859 \;\mathrm{km\,s^{-1}\,Mpc^{-1}}.$$
 
 At this best sampled GEO point,
 
-$$
-\chi^2_{\mathrm{CMB}}
-=
-10962.919,
-$$
+$$\chi^2_{\mathrm{CMB}}=10962.919,$$
 
-$$
-\chi^2_{\mathrm{local}\,H_0}
-=
-0.204111,
-$$
+$$\chi^2_{\mathrm{local}\,H_0}=0.204111,$$
 
 and
 
-$$
-\chi^2_{\mathrm{joint}}
-=
-10963.123111.
-$$
+$$\chi^2_{\mathrm{joint}}=10963.123111.$$
 
 For the matched ΛCDM + local-$H_0$ control, the corresponding
 best sampled quantities are
 
-$$
-H_0
-=
-68.764470
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}},
-$$
+$$H_0=68.764470 \;\mathrm{km\,s^{-1}\,Mpc^{-1}},$$
 
-$$
-\chi^2_{\mathrm{CMB}}
-=
-10966.161,
-$$
+$$\chi^2_{\mathrm{CMB}}=10966.161,$$
 
-$$
-\chi^2_{\mathrm{local}\,H_0}
-=
-16.901034,
-$$
+$$\chi^2_{\mathrm{local}\,H_0}=16.901034,$$
 
 and
 
-$$
-\chi^2_{\mathrm{joint}}
-=
-10983.062034.
-$$
+$$\chi^2_{\mathrm{joint}}=10983.062034.$$
 
 Defining
 
-$$
-\Delta\chi^2
-=
-\chi^2_{\mathrm{GEO}}
--
-\chi^2_{\Lambda\mathrm{CDM}},
-$$
+$$\Delta\chi^2=\chi^2_{\mathrm{GEO}} - \chi^2_{\Lambda\mathrm{CDM}},$$
 
 the matched best-point comparison gives
 
-$$
-\Delta\chi^2_{\mathrm{CMB}}
-=
--3.242,
-$$
+$$\Delta\chi^2_{\mathrm{CMB}}=-3.242,$$
 
-$$
-\Delta\chi^2_{\mathrm{local}\,H_0}
-=
--16.696923,
-$$
+$$\Delta\chi^2_{\mathrm{local}\,H_0}=-16.696923,$$
 
 and
 
-$$
-\boxed{
-\Delta\chi^2_{\mathrm{joint}}
-=
--19.938923
-}.
-$$
+$$\boxed{ \Delta\chi^2_{\mathrm{joint}}=-19.938923 }.$$
 
 Negative values indicate a lower best-point chi-square for the GEO
 realization relative to the matched ΛCDM + local-$H_0$ control in this
@@ -477,25 +280,15 @@ rows per chain.
 
 The total number of stored chain rows is therefore
 
-$$
-4\times30{,}000
-=
-120{,}000.
-$$
+$$4\times30{,}000=120{,}000.$$
 
 The final recorded convergence diagnostic is
 
-$$
-R-1
-=
-0.017309752619.
-$$
+$$R-1=0.017309752619.$$
 
 The pre-specified strict convergence target was
 
-$$
-R-1 < 0.01.
-$$
+$$R-1<0.01.$$
 
 The strict stopping criterion was therefore not formally reached before
 the sample cap.
@@ -512,21 +305,11 @@ closely consistent posterior results.
 
 For GEO-28B,
 
-$$
-H_{0,\mathrm{GEO}}^{(28B)}
-=
-73.3998 \pm 0.4998
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}},
-$$
+$$H_{0,\mathrm{GEO}}^{(28B)}=73.3998 \pm 0.4998 \;\mathrm{km\,s^{-1}\,Mpc^{-1}},$$
 
 whereas GEO-29 gives
 
-$$
-H_{0,\mathrm{GEO}}^{(29)}
-=
-73.3882 \pm 0.5292
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}}.
-$$
+$$H_{0,\mathrm{GEO}}^{(29)}=73.3882 \pm 0.5292 \;\mathrm{km\,s^{-1}\,Mpc^{-1}}.$$
 
 The close agreement between the shorter and extended calculations is
 reported as a numerical stability check. It does not replace the
@@ -668,62 +451,29 @@ A dedicated publication-consistency audit is included as
 
 The frozen release passes the audit with
 
-$$
-\eta
-=
-0.600000000000000,
-$$
+$$\eta=0.600000000000000,$$
 
-$$
-\mu_H
-=
-0.600000000000000,
-$$
+$$\mu_H=0.600000000000000,$$
 
-$$
-R
-=
-0.843432665301749,
-$$
+$$R=0.843432665301749,$$
 
-$$
-\alpha
-=
-0.534463497023985,
-$$
+$$\alpha=0.534463497023985,$$
 
 and
 
-$$
-P_{\mathrm{GEO}}
-=
-1.083679525222552.
-$$
+$$P_{\mathrm{GEO}}=1.083679525222552.$$
 
 The audit independently reconstructs the principal GEO-29 result
 
-$$
-H_{0,\mathrm{GEO}}
-=
-73.388162591
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}},
-$$
+$$H_{0,\mathrm{GEO}}=73.388162591 \;\mathrm{km\,s^{-1}\,Mpc^{-1}},$$
 
 together with
 
-$$
-\Delta\chi^2_{\mathrm{joint}}
-=
--19.938922520,
-$$
+$$\Delta\chi^2_{\mathrm{joint}}=-19.938922520,$$
 
 and verifies the frozen convergence diagnostic
 
-$$
-R-1
-=
-0.017309752619.
-$$
+$$R-1=0.017309752619.$$
 
 The corresponding frozen audit log is supplied in
 
@@ -868,56 +618,29 @@ three distinct statements.
 First, when the GEO efficiency parameter is profiled in the validation
 configuration, the likelihood minimum occurs at
 
-$$
-\eta_{\mathrm{best}}
-=
-0.599212873731233,
-$$
+$$\eta_{\mathrm{best}}=0.599212873731233,$$
 
 extremely close to the canonical GEO value
 
-$$
-\eta_{\mathrm{GEO}}
-=
-\frac{3}{5}
-=
-0.6.
-$$
+$$\eta_{\mathrm{GEO}}=\frac{3}{5}=0.6.$$
 
 Second, when the canonical Hubble-channel mapping is applied to the
 primitive cosmological posterior,
 
-$$
-H_{0,\mathrm{GEO}}
-=
-P_{\mathrm{GEO}}H_{0,\mathrm{primitive}},
-$$
+$$H_{0,\mathrm{GEO}}=P_{\mathrm{GEO}}H_{0,\mathrm{primitive}},$$
 
 the extended GEO calculation maps
 
-$$
-H_{0,\mathrm{primitive}}
-=
-67.7213 \pm 0.4884
-$$
+$$H_{0,\mathrm{primitive}}=67.7213 \pm 0.4884$$
 
 to
 
-$$
-H_{0,\mathrm{GEO}}
-=
-73.3882 \pm 0.5292
-\;\mathrm{km\,s^{-1}\,Mpc^{-1}}.
-$$
+$$H_{0,\mathrm{GEO}}=73.3882 \pm 0.5292 \;\mathrm{km\,s^{-1}\,Mpc^{-1}}.$$
 
 Third, under the exact matched joint likelihood comparison documented
 here, the best sampled GEO realization has
 
-$$
-\Delta\chi^2_{\mathrm{joint}}
-=
--19.938923
-$$
+$$\Delta\chi^2_{\mathrm{joint}}=-19.938923$$
 
 relative to the ΛCDM + local-$H_0$ control.
 
