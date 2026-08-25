@@ -653,16 +653,32 @@ independent observational validation.
 
 # 14. Citation and license
 
-Citation metadata are supplied in
+# 14. Citation and license
 
-`CITATION.cff`.
+The archived release of this numerical validation package is available at Zenodo:
 
-The software and repository materials are released under the MIT
-License. See
+**DOI: 10.5281/zenodo.22103137**
+
+Permanent identifier:
+
+`https://doi.org/10.5281/zenodo.22103137`
+
+Recommended citation:
+
+> Torreblanca, Leonel (2026). *GEO Cosmology MCMC Validation*, version 1.0.0. Zenodo. DOI: 10.5281/zenodo.22103137.
+
+Machine-readable citation metadata are supplied in:
+
+`CITATION.cff`
+
+The software and repository materials are released under the MIT License. See:
 
 `LICENSE`
 
 for the complete license text.
+
+---
+
 
 ---
 

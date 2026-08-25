@@ -1,13 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this software or numerical dataset, please cite the associated GEO Cosmology MCMC archive."
+message: "If you use this software or its numerical results, please cite this archived release."
 title: "GEO Cosmology MCMC Validation"
 type: software
+
 authors:
   - family-names: "Torreblanca"
     given-names: "Leonel"
+
 version: "1.0.0"
 date-released: "2026-08-25"
+
+doi: "10.5281/zenodo.22103137"
+
 repository-code: "https://github.com/LeoTorreblanca/GEO-Cosmology-MCMC"
+url: "https://doi.org/10.5281/zenodo.22103137"
+
 keywords:
   - cosmology
   - Hubble tension
@@ -17,4 +24,5 @@ keywords:
   - CLASS
   - Cobaya
   - GEO
+
 license: MIT
