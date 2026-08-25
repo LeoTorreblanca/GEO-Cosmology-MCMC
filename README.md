@@ -157,7 +157,7 @@ at the likelihood minimum.
 
 Cross-configuration tests give a median preferred value
 
-$$\operatorname{median}(\eta_{\mathrm{best}})=0.6.$$
+$$\mathrm{Median}(\eta_{\mathrm{best}})=0.6.$$
 
 Across the tested configurations, the mean chi-square penalty evaluated
 at the canonical node is approximately
