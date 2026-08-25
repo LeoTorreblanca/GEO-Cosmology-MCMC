@@ -1,0 +1,82 @@
+GEO COSMOLOGY MCMC — PUBLICATION SUMMARY
+========================================
+
+Canonical GEO constants
+-----------------------
+eta       = 0.600000000000000
+mu_H      = 0.600000000000000
+Phi       = 1.889613815211680
+R         = 0.843432665301749
+alpha     = 0.534463497023985
+P_GEO     = 1.083679525222552
+
+Correct radial law:
+R = mu^(1/3)
+
+GEO-29 posterior
+----------------
+H0 primitive =
+67.721278185 +/- 0.488382107
+
+H0 GEO =
+73.388162591 +/- 0.529249689
+
+68% H0 GEO =
+[72.859989994,
+ 73.924827583]
+
+95% H0 GEO =
+[72.374408370,
+ 74.450205170]
+
+Best GEO-29 point
+-----------------
+H0 primitive =
+67.833577000
+
+H0 GEO =
+73.509858518
+
+chi2 CMB =
+10962.919000
+
+chi2 local H0 =
+0.204111
+
+chi2 joint =
+10963.123111
+
+Matched LCDM control
+--------------------
+chi2 joint =
+10983.062034
+
+GEO - LCDM
+----------
+Delta chi2 joint =
+-19.938923
+
+Convergence
+-----------
+See table_03_chain_diagnostics.csv.
+
+GEO-29 did not formally satisfy the pre-specified
+R-1 < 0.01 criterion.
+
+Its final recorded R-1 is approximately 0.0173.
+
+Therefore the numerical result must be reported as
+a long-chain stable / near-converged result, not as
+strict R-1 < 0.01 convergence.
+
+Interpretation
+--------------
+The fixed GEO projection preserves a primitive H0
+near the Planck/NPIPE-preferred scale while producing
+a projected local H0 near 73.4 km/s/Mpc.
+
+The fixed projection does not introduce an additional
+sampled cosmological parameter in this comparison.
+
+This numerical result does not by itself establish
+eta = 3/5 as a universal constant of nature.

@@ -1,0 +1,26 @@
+================================================================================
+GEO-31 VALIDATION ASSETS COMPLETE
+================================================================================
+
+GEO-18:
+fc_best  = 0.774088414673
+eta_best = 0.599212873731
+fc_GEO   = 0.774596669241
+eta_GEO  = 0.600000000000
+Dchi2 GEO= 0.001005928553
+
+GEO-20:
+                              test  fc_best  eta_best  delta_chi2_GEO
+                      01_growth_S8 0.750000    0.5625        0.179123
+                    02_BAO_SN_full 0.774597    0.6000        0.000000
+   04_weak_lensing_prior_KiDS_like 0.774597    0.6000        0.000000
+04_weak_lensing_prior_DES_HSC_like 0.750000    0.5625        0.267647
+ 04_weak_lensing_prior_DES_Y3_like 0.774597    0.6000        0.000000
+
+Saved:
+/home/leone/GEO-MCMC/publication/tables/table_05_eta_profile.csv
+/home/leone/GEO-MCMC/publication/tables/table_06_eta_cross_configuration.csv
+/home/leone/GEO-MCMC/publication/figures/figure_04_eta_profile.png
+/home/leone/GEO-MCMC/publication/figures/figure_05_eta_cross_configuration.png
+/home/leone/GEO-MCMC/publication/figures/figure_06_eta_node_penalty.png
+/home/leone/GEO-MCMC/publication/summaries/GEO_ETA_VALIDATION_SUMMARY.txt

@@ -1,0 +1,58 @@
+GEO-31 — eta VALIDATION SUMMARY
+================================
+
+Canonical GEO node
+------------------
+eta_GEO = 0.600000000000000
+fc_GEO  = 0.774596669241483
+
+GEO-18 wide profile
+-------------------
+fc_best       = 0.774088414673177
+eta_best      = 0.599212873731233
+Delta chi2 min= 0.000000000000000
+
+Canonical node in profile
+-------------------------
+fc_node       = 0.774596669241483
+eta_node      = 0.600000000000000
+Delta chi2 GEO= 0.001005928553241
+
+Difference
+----------
+fc_GEO - fc_best =
+5.082545683060546e-04
+
+eta_GEO - eta_best =
+7.871262687669800e-04
+
+Cross-configuration results
+---------------------------
+Median fc_best =
+0.774596669241483
+
+Median eta_best =
+0.600000000000000
+
+Mean Delta chi2 GEO =
+0.089354084304658
+
+Max Delta chi2 GEO =
+0.267647200015290
+
+Interpretation
+--------------
+The canonical eta=3/5 node is compared against
+profile-likelihood fits in which fc is allowed to vary.
+
+The cross-configuration cases are not all statistically
+independent. In particular, the weak-lensing-like cases
+reuse common BAO/SN/fs8/CMB information and differ mainly
+through their S8 prior.
+
+Therefore this section establishes compatibility and
+cross-configuration stability, not a measurement of a
+new universal constant.
+
+Correct radial law used elsewhere in GEO:
+R = mu^(1/3)

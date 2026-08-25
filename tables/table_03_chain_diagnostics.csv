@@ -1,0 +1,4 @@
+run,rows,total_weight,chains,Rminus1_last,strict_converged
+LCDM_control,48000,77209,4,0.04252102393993437,False
+GEO_28B,48000,76158,4,0.04894195935275469,False
+GEO_29,120000,196536,4,0.0173097526187087,False

@@ -1,0 +1,9 @@
+quantity,value,definition
+eta,0.6,Canonical GEO efficiency
+mu_H,0.6,Hubble-channel realization
+Phi,1.88961381521168,GEO operator
+R,0.8434326653017492,mu_H^(1/3)
+alpha,0.5344634970239851,Phi*(1-eta)/sqrt(2)
+P_GEO,1.0836795252225517,1 + alpha*(1-R)
+H0_local_reference,73.04,External comparison
+H0_local_sigma,1.04,External likelihood sigma

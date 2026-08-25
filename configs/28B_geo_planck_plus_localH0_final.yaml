@@ -1,0 +1,114 @@
+
+packages_path: /home/leone/GEO-MCMC/packages
+
+theory:
+  classy:
+    path: /home/leone/GEO-MCMC/theory/class
+    extra_args:
+      non_linear: hmcode
+      lensing: yes
+
+likelihood:
+  planck_2018_lowl.TT:
+  planck_2018_lowl.EE:
+  planck_NPIPE_highl_CamSpec.TTTEEE:
+
+  local_H0_GEO:
+    external: "lambda H0: -0.5*((1.083679525222552*H0-73.04)/1.04)**2"
+
+params:
+
+  omega_b:
+    prior:
+      min: 0.019
+      max: 0.025
+    ref:
+      dist: norm
+      loc: 0.02216
+      scale: 0.00015
+    proposal: 0.00008
+    latex: \omega_b
+
+  omega_cdm:
+    prior:
+      min: 0.09
+      max: 0.15
+    ref:
+      dist: norm
+      loc: 0.1197
+      scale: 0.0012
+    proposal: 0.001
+    latex: \omega_{\rm cdm}
+
+  H0:
+    prior:
+      min: 50
+      max: 90
+    ref:
+      dist: norm
+      loc: 67.74
+      scale: 0.5
+    proposal: 0.4
+    latex: H_0
+
+  logA:
+    prior:
+      min: 2.5
+      max: 3.7
+    ref:
+      dist: norm
+      loc: 3.026
+      scale: 0.02
+    proposal: 0.012
+    drop: true
+    latex: \ln(10^{10}A_s)
+
+  A_s:
+    value: "lambda logA: 1e-10*np.exp(logA)"
+    latex: A_s
+
+  n_s:
+    prior:
+      min: 0.85
+      max: 1.10
+    ref:
+      dist: norm
+      loc: 0.9632
+      scale: 0.005
+    proposal: 0.004
+    latex: n_s
+
+  tau_reio:
+    prior:
+      min: 0.01
+      max: 0.12
+    ref:
+      dist: norm
+      loc: 0.051
+      scale: 0.008
+    proposal: 0.004
+    latex: \tau
+
+  Omega_m:
+    derived: true
+    latex: \Omega_m
+
+  sigma8:
+    derived: true
+    latex: \sigma_8
+
+sampler:
+  mcmc:
+    covmat: /home/leone/GEO-MCMC/results/geo/27B_geo_planck_plus_localH0.covmat
+
+    burn_in: 5d
+    learn_proposal: true
+
+    Rminus1_stop: 0.01
+    Rminus1_cl_stop: 0.2
+
+    max_samples: 12000
+    output_every: 60s
+
+
+output: results/geo/28B_geo_planck_plus_localH0_final

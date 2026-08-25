@@ -1,0 +1,16 @@
+==============================================================================
+GEO COSMOLOGY MCMC — PUBLICATION CONSISTENCY AUDIT
+==============================================================================
+eta       = 0.600000000000000
+mu_H      = 0.600000000000000
+R         = 0.843432665301749
+alpha     = 0.534463497023985
+P_GEO     = 1.083679525222552
+
+GEO-29 H0 mean      = 67.721278185
+GEO-29 H0_GEO mean  = 73.388162591
+Delta chi2 joint     = -19.938922520
+GEO-29 R-1           = 0.017309752619
+
+AUDIT PASSED
+All frozen numerical quantities are internally consistent.

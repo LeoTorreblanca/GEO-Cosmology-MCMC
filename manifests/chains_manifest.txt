@@ -1,0 +1,32 @@
+================================================================================
+/home/leone/GEO-MCMC/results/lcdm/07_planck_npipe_mcmc_final_mpicd
+================================================================================
+chain 1: bytes=5724477 rows=12000 sha256=a42ef465115f14200345b962b3a59b5cba43280bae56cb47e50edf950fcecada
+chain 2: bytes=5724477 rows=12000 sha256=be248e0dd72599279ae7f4935e487499c4b267e530a4ecd5ab2ca405c9624c37
+chain 3: bytes=5724477 rows=12000 sha256=9750cd54816f79899dfba3e2de8306c3b7749a1409479b185287bd666eacaca3
+chain 4: bytes=5724477 rows=12000 sha256=03116f69716a52e6c7d22127fe27550e2cf6865f4eef61b80388f2ecd8afef6f
+
+================================================================================
+/home/leone/GEO-MCMC/results/geo/28A_lcdm_planck_plus_localH0_final
+================================================================================
+chain 1: bytes=6000500 rows=12000 sha256=243db1919d2ce6992be8f0e195728f830a204573b3b9c765961cbdf4ee4a9321
+chain 2: bytes=6000500 rows=12000 sha256=e4ce1427d850cbbe2dd65dcb33721308a06ef09aec8b236473279740902887ef
+chain 3: bytes=6000500 rows=12000 sha256=cd2fb9d4ff766bbfea5fd4ed7e0bddc7d3a676d192bc76068e8133efbefc50c3
+chain 4: bytes=6000500 rows=12000 sha256=45e7b8720bd3a4365993353f6614adfdfd2785e038bb4cc2bbe7c1fa4394debe
+
+================================================================================
+/home/leone/GEO-MCMC/results/geo/28B_geo_planck_plus_localH0_final
+================================================================================
+chain 1: bytes=5952496 rows=12000 sha256=d650d71d5c51abe47cb51690896a831d353cf07285daefe97756842d0c5d54e4
+chain 2: bytes=5952496 rows=12000 sha256=f3c74226ccd3a7a00f8c166f4d6819cc758a8a78baf865e6a25623f139696973
+chain 3: bytes=5952496 rows=12000 sha256=addfbb9410e5daa0b1af960414666789c30fed1360115f863a8814714d071976
+chain 4: bytes=5952496 rows=12000 sha256=9bec1fcf5a5415631bf734e19e1ae0b3f99b83f3dd045d097bbb291d860c4188
+
+================================================================================
+/home/leone/GEO-MCMC/results/geo/29_geo_planck_plus_localH0_converge
+================================================================================
+chain 1: bytes=14880496 rows=30000 sha256=cf0ca68769a8852588bbb5774337b95e0620fa5696f7a37486f4d037b14fdba7
+chain 2: bytes=14880496 rows=30000 sha256=3dd6d833d0e36a73f192c08ac01427d8d077d95f2073c22d6146150144ad6584
+chain 3: bytes=14880496 rows=30000 sha256=85dbc851b4145b50331e75e4d231e4b8ae2369ccad3099f1ac9374bb92b386e2
+chain 4: bytes=14880496 rows=30000 sha256=ab029998a7eed731cb1f0f285a1adcdc7fbb82032f02fb01a9bdc2556b9957ee
+

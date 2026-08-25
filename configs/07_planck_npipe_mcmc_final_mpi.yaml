@@ -1,0 +1,111 @@
+packages_path: /home/leone/GEO-MCMC/packages
+
+theory:
+  classy:
+    path: /home/leone/GEO-MCMC/theory/class
+    extra_args:
+      non_linear: hmcode
+      lensing: yes
+
+likelihood:
+  planck_2018_lowl.TT:
+  planck_2018_lowl.EE:
+  planck_NPIPE_highl_CamSpec.TTTEEE:
+
+params:
+
+  omega_b:
+    prior:
+      min: 0.019
+      max: 0.025
+    ref:
+      dist: norm
+      loc: 0.02237
+      scale: 0.00015
+    proposal: 0.00008
+    latex: \omega_b
+
+  omega_cdm:
+    prior:
+      min: 0.09
+      max: 0.15
+    ref:
+      dist: norm
+      loc: 0.1200
+      scale: 0.002
+    proposal: 0.001
+    latex: \omega_{\rm cdm}
+
+  H0:
+    prior:
+      min: 50
+      max: 90
+    ref:
+      dist: norm
+      loc: 67.4
+      scale: 1.0
+    proposal: 0.5
+    latex: H_0
+
+  logA:
+    prior:
+      min: 2.5
+      max: 3.7
+    ref:
+      dist: norm
+      loc: 3.044
+      scale: 0.03
+    proposal: 0.015
+    drop: true
+    latex: \ln(10^{10}A_s)
+
+  A_s:
+    value: "lambda logA: 1e-10*np.exp(logA)"
+    latex: A_s
+
+  n_s:
+    prior:
+      min: 0.85
+      max: 1.10
+    ref:
+      dist: norm
+      loc: 0.9649
+      scale: 0.01
+    proposal: 0.004
+    latex: n_s
+
+  tau_reio:
+    prior:
+      min: 0.01
+      max: 0.12
+    ref:
+      dist: norm
+      loc: 0.0544
+      scale: 0.008
+    proposal: 0.004
+    latex: \tau
+
+  Omega_m:
+    derived: true
+    latex: \Omega_m
+
+  sigma8:
+    derived: true
+    latex: \sigma_8
+
+sampler:
+  mcmc:
+    covmat: /home/leone/GEO-MCMC/results/lcdm/06_planck_npipe_mcmc_converge.covmat
+    burn_in: 5d
+    learn_proposal: true
+
+    # Convergencia final entre cadenas MPI
+    Rminus1_stop: 0.01
+    Rminus1_cl_stop: 0.2
+
+    # Tope de seguridad; puede detenerse antes por convergencia
+    max_samples: 12000
+
+    output_every: 60s
+
+output: results/lcdm/07_planck_npipe_mcmc_final_mpicd
