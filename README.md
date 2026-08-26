@@ -155,9 +155,9 @@ $$\eta_{\mathrm{GEO}} - \eta_{\mathrm{best}}=7.87126268767\times10^{-4}.$$
 Thus, within this profile test, the canonical GEO node lies essentially
 at the likelihood minimum.
 
-Cross-configuration tests give a median preferred value
+Cross-configuration tests give a median preferred valu
 
-$$\operatorname{median}(\eta_{\mathrm{best}})=0.6.$$
+$$\mathrm{median}(\eta_{\mathrm{best}})=0.6.$$
 
 Across the tested configurations, the mean chi-square penalty evaluated
 at the canonical node is approximately
@@ -651,7 +651,6 @@ independent observational validation.
 
 ---
 
-# 14. Citation and license
 
 # 14. Citation and license
 
@@ -677,7 +676,6 @@ The software and repository materials are released under the MIT License. See:
 
 for the complete license text.
 
----
 
 
 ---
